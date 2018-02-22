@@ -56,7 +56,7 @@ iframe{
 /* Containers */
 
 	.container {
-		widt: 75%;
+		
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -2032,7 +2032,7 @@ iframe{
 	.image {
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position: center;
 	}
 
 		.image img {
