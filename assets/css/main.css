@@ -2215,10 +2215,10 @@ iframe{
 
 		.feature .image {
 			display: inline-block;
-			height: 75%;
+			height:auto;
 			overflow: hidden;
 			position: relative;
-			width: 50%;
+			width: 100%;
 		}
 
 			.feature .image img {
