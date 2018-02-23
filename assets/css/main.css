@@ -2223,8 +2223,8 @@ iframe{
 
 			.feature .image img {
 				display: block;
-				height: 75%;
-				width: 75%;
+				min-height: 75%;
+				min-width: 75%;
 				position: absolute;
 			}
 
