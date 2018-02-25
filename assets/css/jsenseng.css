@@ -2218,6 +2218,7 @@ iframe{
 			overflow: hidden;
 			position: relative;
 			width: 50%;
+			justify-content: center;
 		}
 
 			.feature .image img {
