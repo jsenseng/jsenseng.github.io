@@ -81,6 +81,27 @@ iframe{
 	.container {
 		width: 51em;
 	}
+	
+	@media screen and (max-width: 1920px) {
+		.container.\31 25\25 {
+		  width: 100%;
+		  max-width: 1700px;
+		  min-width: 1360px;
+		}
+		.container.\37 5\25 {
+		  width: 1020px;
+		}
+		.container.\35 0\25 {
+		  width: 680px;
+		}
+		.container.\32 5\25 {
+		  width: 340px;
+		}
+		.container {
+		  width: 1360px;
+		}
+	  }
+	  
 
 	@media screen and (max-width: 1680px) {
 
