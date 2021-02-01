@@ -2063,7 +2063,7 @@ iframe{
 			.image.feature img {
 				display: block;
 				width: 100%;
-				object-fit: cover;
+				
 			}
 
 /* List */
@@ -2590,7 +2590,7 @@ iframe{
 		/* Feature */
 
 			.feature {
-				height: 18em;
+				height: 20em;
 			}
 
 				.feature .content {
