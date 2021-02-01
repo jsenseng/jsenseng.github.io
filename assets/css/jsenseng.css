@@ -2219,6 +2219,7 @@ iframe{
 
 		.feature h3, .feature h4, .feature h5, .feature h6 {
 			text-align: inherit;
+			
 		}
 
 		.feature .image {
@@ -2291,7 +2292,7 @@ iframe{
 				}
 
 			.feature.right .content {
-				padding-left: 0;
+				padding-left: 5;
 			}
 
 		.feature.long .content {
@@ -2590,7 +2591,7 @@ iframe{
 		/* Feature */
 
 			.feature {
-				height: 60em;
+				height: 24em;
 			}
 
 				.feature .content {
