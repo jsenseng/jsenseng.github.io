@@ -2272,7 +2272,7 @@ iframe{
 			padding: 3.5em;
 			vertical-align: middle;
 			width: 48%;
-			height: fit-content;
+			height:max-content;
 		}
 
 			.feature .content h3 {
