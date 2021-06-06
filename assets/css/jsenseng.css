@@ -1874,7 +1874,7 @@ iframe{
 		text-align: center;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h7 a {
 			color: inherit;
 			text-decoration: none;
 		}
@@ -1885,6 +1885,10 @@ iframe{
 
 	h3 {
 		font-size: 1.5em;
+	}
+
+	h7{
+		font-weight: bold;
 	}
 
 	sub {
@@ -2102,10 +2106,12 @@ iframe{
 	ul.default {
 		list-style: disc;
 		padding-left: 1em;
+		padding-top: .05em;
 	}
 
 		ul.default li {
 			padding-left: 0.5em;
+			
 		}
 
 	ul.icons {
@@ -2273,7 +2279,7 @@ iframe{
 			padding: 3.5em;
 			vertical-align: middle;
 			width: 48%;
-			height: 500em;
+			/* height: 500em; */
 		}
 
 			.feature .content h3 {
@@ -2316,7 +2322,7 @@ iframe{
 
 			.feature.right .content {
 				padding-left: 5;
-				text-align: center;
+				text-align: left;
 			}
 
 		.feature.long .content {
@@ -2786,11 +2792,11 @@ iframe{
 		/* Header */
 
 			#header {
-				/*background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
-			}
-*/
+			 }
+
 				#header:before {
 					height: calc(100% - 20px);
 				}
